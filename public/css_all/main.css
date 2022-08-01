@@ -1,0 +1,115 @@
+
+.link-head-login1 {
+    background: linear-gradient(to bottom, #fdef7d 6%,#e2860a 48%,#bc5b11 100%);
+    border-bottom: 2px solid #e5a10d;
+    margin-top: 35px;
+    text-align: center;
+}
+.text-login1 {
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.text-login1 h1{
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 3px 0px 8px;
+}
+.text-login1 h3 {
+    font-size: 1.75rem;
+    padding-bottom: 8px;
+}
+.product-link:hover {
+    background-image: linear-gradient(to right, #0d0021 0%, #e58e1363 50%, #0d0021 100%);
+}
+.product-link {
+    width: 100%;
+    background-image: linear-gradient(to right, #0d0021 0%, #0d0021 50%, #0d0021 100%);
+    transition: all 0.5s ease;
+    margin: 0;
+    display: inline-grid;
+}
+.line-link {
+    margin: 0px auto;
+    width: 80%;
+    height: 1px;
+    background-image: linear-gradient(to right, #140d01 0%, #633107 50%, #140d01 100%);
+}
+.mg-login1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.pd-login1 {
+    padding: 20px 0;
+}
+.post-l3x2 {
+    border: 0;
+    text-align: center;
+}
+.post-l3x2:hover {
+    background-color: #15013400;
+}
+.post-l3x2.last {
+    margin: 0% 0% 0% 0%;
+}
+@media screen and (max-width: 480px) {
+    .post-l3x2 {
+        width: 49.5%!important;
+        border-bottom: 0!important;
+        background-color: #00000000!important;
+    }
+    .text-login1 h3 {
+        font-size: 20px;
+    }
+    .mg-login1 {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+.button-login1 a {
+    color: #fff;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #e9a60f 0%, #b05507 90%);
+    width: 160px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid #e5a10d;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    padding-bottom: 3px;
+}
+.button-login1 a:hover {
+    background: linear-gradient(to bottom, #000000 0%, #421f02 90%);
+    border: 1px solid #9c6e0b;
+    box-shadow: 0 0 6px 0px #e0990ec4;
+    animation-name: pulse;
+    animation-duration: 1500ms;
+}
+
+.pulse {
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.pd-promotion1 img{
+    padding: 7px 0px 7px;
+}
+a:hover, a:focus {
+    text-decoration: auto;
+}
+.mg-article1 {
+    margin-bottom: 15px;
+}
